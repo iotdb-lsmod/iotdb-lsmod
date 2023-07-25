@@ -1,0 +1,6 @@
+OpenJDK 64-Bit Server VM (25.312-b07) for windows-amd64 JRE (1.8.0_312-b07), built on Oct 19 2021 15:47:56 by "jenkins" with MS VC++ 12.0 (VS2013)
+Memory: 4k page, physical 16571704k(5635000k free), swap 19062072k(4889008k free)
+CommandLine flags: -XX:InitialHeapSize=419430400 -XX:MaxHeapSize=4241489920 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:-UseLargePagesIndividualAllocation -XX:+UseParallelGC 
+2023-07-25T09:32:03.657+0800: 0.740: [GC (Allocation Failure) [PSYoungGen: 102400K->10328K(119296K)] 102400K->10416K(392704K), 0.0067949 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+2023-07-25T09:32:51.221+0800: 48.304: [GC (Metadata GC Threshold) [PSYoungGen: 75666K->12547K(119296K)] 75754K->12643K(392704K), 0.0064186 secs] [Times: user=0.08 sys=0.05, real=0.01 secs] 
+2023-07-25T09:32:51.228+0800: 48.311: [Full GC (Metadata GC Threshold) [PSYoungGen: 12547K->0K(119296K)] [ParOldGen: 96K->12121K(273408K)] 12643K->12121K(392704K), [Metaspace: 20621K->20590K(1067008K)], 0.0175769 secs] [Times: user=0.13 sys=0.00, real=0.02 secs] 

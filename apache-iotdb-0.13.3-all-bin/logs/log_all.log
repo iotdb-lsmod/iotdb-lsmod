@@ -1,0 +1,159 @@
+2023-07-25 09:32:03,340 [main] INFO  o.a.i.d.c.IoTDBDescriptor:146 - Start to read config file file:D:/dodds-exp/apache-iotdb-0.13.3-all-bin/conf/iotdb-engine.properties 
+2023-07-25 09:32:03,368 [main] INFO  o.a.i.d.c.IoTDBDescriptor:1397 - allocateMemoryForRead = 1131361075 
+2023-07-25 09:32:03,368 [main] INFO  o.a.i.d.c.IoTDBDescriptor:1398 - allocateMemoryForWrite = 1508481433 
+2023-07-25 09:32:03,368 [main] INFO  o.a.i.d.c.IoTDBDescriptor:1399 - allocateMemoryForSchema = 377120358 
+2023-07-25 09:32:03,372 [main] INFO  o.a.i.t.c.c.TSFileDescriptor:123 - try loading iotdb-engine.properties from D:\dodds-exp\apache-iotdb-0.13.3-all-bin\conf\iotdb-engine.properties 
+2023-07-25 09:32:03,408 [main] INFO  o.a.i.d.c.IoTDBDescriptor:296 - IoTDB enable memory control: true 
+2023-07-25 09:32:03,450 [main] INFO  o.a.i.m.c.MetricConfigDescriptor:54 - Start to read config file D:\dodds-exp\apache-iotdb-0.13.3-all-bin\conf\iotdb-metric.yml 
+2023-07-25 09:32:03,498 [main] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:174 - new single scheduled thread pool: timedForceMLogThread 
+2023-07-25 09:32:03,498 [main] INFO  o.a.i.d.c.IoTDBConfigCheck:108 - Starting IoTDB 0.13.3 
+2023-07-25 09:32:03,514 [main] INFO  o.a.i.d.c.r.IoTDBRestServiceDescriptor:57 - Start to read config file file:D:/dodds-exp/apache-iotdb-0.13.3-all-bin/conf/iotdb-rest.properties 
+2023-07-25 09:32:03,517 [main] WARN  o.a.i.d.s.StartupChecks:38 - iotdb.jmx.port missing from iotdb-env.sh(Unix or OS X, if you use Windows, check conf/iotdb-env.bat) 
+2023-07-25 09:32:03,521 [main] INFO  o.a.i.d.s.StartupChecks:56 - JDK version is 8. 
+2023-07-25 09:32:03,521 [main] INFO  o.a.i.db.service.IoTDB:137 - Setting up IoTDB... 
+2023-07-25 09:32:03,521 [main] INFO  o.a.i.db.service.IoTDB:141 - recover the schema... 
+2023-07-25 09:32:03,551 [main] INFO  o.a.i.d.w.i.SingleFileLogReader:144 - open WAL file: mlog.bin size is 9254 
+2023-07-25 09:32:03,588 [main] INFO  o.a.i.db.service.IoTDB:223 - spend 67ms to recover schema. 
+2023-07-25 09:32:03,589 [main] INFO  o.a.i.db.service.IoTDB:224 - After initializing, sequence tsFile threshold is 0, unsequence tsFile threshold is 0, memtableSize is 1073741824 
+2023-07-25 09:32:03,592 [main] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:195 - new scheduled thread pool: query-time-manager 
+2023-07-25 09:32:03,594 [main] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:174 - new single scheduled thread pool: timedQuerySqlCount 
+2023-07-25 09:32:03,607 [main] INFO  o.a.i.d.a.a.BasicAuthorizer$InstanceHolder:89 - Authorizer provider class: org.apache.iotdb.db.auth.authorizer.LocalFileAuthorizer 
+2023-07-25 09:32:03,610 [main] INFO  o.a.i.d.a.u.BasicUserManager:81 - Admin initialized 
+2023-07-25 09:32:03,612 [main] INFO  o.a.i.d.a.u.BasicUserManager:81 - Admin initialized 
+2023-07-25 09:32:03,612 [main] INFO  o.a.i.d.a.a.BasicAuthorizer:69 - Initialization of Authorizer completes 
+2023-07-25 09:32:03,614 [main] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:174 - new single scheduled thread pool: Archiving-Check 
+2023-07-25 09:32:03,614 [main] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:68 - new fixed thread pool: Archiving-Task, thread number: 2 
+2023-07-25 09:32:03,614 [main] INFO  o.a.i.d.e.a.ArchivingManager:163 - start archiving check thread successfully. 
+2023-07-25 09:32:03,614 [main] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:68 - new fixed thread pool: Flush, thread number: 8 
+2023-07-25 09:32:03,614 [main] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:131 - new cached thread pool: Flush-SubTask 
+2023-07-25 09:32:03,614 [main] INFO  o.a.i.d.e.f.p.FlushSubTaskPoolManager:58 - Flush sub task manager started. 
+2023-07-25 09:32:03,614 [main] INFO  o.a.i.d.e.f.p.FlushTaskPoolManager:60 - Flush task manager started. 
+2023-07-25 09:32:03,614 [main] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:174 - new single scheduled thread pool: WAL-ForceSync 
+2023-07-25 09:32:03,636 [main] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:195 - new scheduled thread pool: Compaction 
+2023-07-25 09:32:03,636 [main] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:195 - new scheduled thread pool: Sub-Compaction 
+2023-07-25 09:32:03,636 [main] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:195 - new scheduled thread pool: Compaction 
+2023-07-25 09:32:03,638 [main] INFO  o.a.i.d.e.c.CompactionTaskManager:131 - Compaction task manager started. 
+2023-07-25 09:32:03,650 [main] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:68 - new fixed thread pool: Recovery-Thread-Pool, thread number: 8 
+2023-07-25 09:32:03,656 [pool-12-IoTDB-Recovery-Thread-Pool-1] INFO  o.a.i.d.e.StorageEngine:768 - construct a processor instance, the storage group is root.tao, Thread is 26 
+2023-07-25 09:32:03,663 [pool-12-IoTDB-Recovery-Thread-Pool-6] INFO  o.a.i.d.e.StorageEngine:768 - construct a processor instance, the storage group is root.PAMAP2, Thread is 31 
+2023-07-25 09:32:03,664 [pool-12-IoTDB-Recovery-Thread-Pool-3] INFO  o.a.i.d.e.StorageEngine:768 - construct a processor instance, the storage group is root.jinfeng, Thread is 28 
+2023-07-25 09:32:03,663 [pool-12-IoTDB-Recovery-Thread-Pool-4] INFO  o.a.i.d.e.StorageEngine:768 - construct a processor instance, the storage group is root.tianyuan, Thread is 29 
+2023-07-25 09:32:03,663 [pool-12-IoTDB-Recovery-Thread-Pool-2] INFO  o.a.i.d.e.StorageEngine:768 - construct a processor instance, the storage group is root.gas, Thread is 27 
+2023-07-25 09:32:03,663 [pool-12-IoTDB-Recovery-Thread-Pool-5] INFO  o.a.i.d.e.StorageEngine:768 - construct a processor instance, the storage group is root.wanhua, Thread is 30 
+2023-07-25 09:32:03,664 [main] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:174 - new single scheduled thread pool: TTL-Check 
+2023-07-25 09:32:03,667 [main] INFO  o.a.i.d.e.StorageEngine:438 - start ttl check thread successfully. 
+2023-07-25 09:32:03,668 [main] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:174 - new single scheduled thread pool: Timed-Flush-Unseq-Memtable 
+2023-07-25 09:32:03,668 [main] INFO  o.a.i.d.e.StorageEngine:501 - start unsequence memtable timed flush check thread successfully. 
+2023-07-25 09:32:03,669 [main] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:174 - new single scheduled thread pool: Timed-Close-TsFile 
+2023-07-25 09:32:03,670 [main] INFO  o.a.i.d.e.StorageEngine:513 - start tsfile timed close check thread successfully. 
+2023-07-25 09:32:03,671 [main] INFO  o.a.i.d.q.u.s.UDFClassLoaderManager:56 - UDF lib root: D:\dodds-exp\apache-iotdb-0.13.3-all-bin\ext\udf 
+2023-07-25 09:32:03,673 [pool-12-IoTDB-Recovery-Thread-Pool-3] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:57 - recovering inner compaction 
+2023-07-25 09:32:03,673 [pool-12-IoTDB-Recovery-Thread-Pool-5] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:57 - recovering inner compaction 
+2023-07-25 09:32:03,673 [pool-12-IoTDB-Recovery-Thread-Pool-4] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:57 - recovering inner compaction 
+2023-07-25 09:32:03,673 [pool-12-IoTDB-Recovery-Thread-Pool-2] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:57 - recovering inner compaction 
+2023-07-25 09:32:03,673 [pool-12-IoTDB-Recovery-Thread-Pool-6] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:57 - recovering inner compaction 
+2023-07-25 09:32:03,673 [pool-12-IoTDB-Recovery-Thread-Pool-1] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:57 - recovering inner compaction 
+2023-07-25 09:32:03,674 [pool-12-IoTDB-Recovery-Thread-Pool-3] INFO  o.a.i.d.c.d.DirectoryManager:128 - create folder D:\dodds-exp\apache-iotdb-0.13.3-all-bin\data\data\sequence failed. Is the folder existed: true 
+2023-07-25 09:32:03,675 [pool-12-IoTDB-Recovery-Thread-Pool-3] INFO  o.a.i.d.c.d.DirectoryManager:128 - create folder D:\dodds-exp\apache-iotdb-0.13.3-all-bin\data\data\unsequence failed. Is the folder existed: true 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-4] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:57 - recovering inner compaction 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-2] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:57 - recovering inner compaction 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-3] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:57 - recovering inner compaction 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-1] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:57 - recovering inner compaction 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-5] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:57 - recovering inner compaction 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-6] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:57 - recovering inner compaction 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-4] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:63 - recovering cross compaction 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-2] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:63 - recovering cross compaction 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-3] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:63 - recovering cross compaction 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-1] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:63 - recovering cross compaction 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-5] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:63 - recovering cross compaction 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-6] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:63 - recovering cross compaction 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-4] INFO  o.a.i.d.e.v.SimpleFileVersionController:113 - Version file updated, previous: D:\dodds-exp\apache-iotdb-0.13.3-all-bin\data\system\storage_groups\root.tianyuan\0\upgrade\Version-300, current: D:\dodds-exp\apache-iotdb-0.13.3-all-bin\data\system\storage_groups\root.tianyuan\0\upgrade\Version-400 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-2] INFO  o.a.i.d.e.v.SimpleFileVersionController:113 - Version file updated, previous: D:\dodds-exp\apache-iotdb-0.13.3-all-bin\data\system\storage_groups\root.gas\0\upgrade\Version-300, current: D:\dodds-exp\apache-iotdb-0.13.3-all-bin\data\system\storage_groups\root.gas\0\upgrade\Version-400 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-5] INFO  o.a.i.d.e.v.SimpleFileVersionController:113 - Version file updated, previous: D:\dodds-exp\apache-iotdb-0.13.3-all-bin\data\system\storage_groups\root.wanhua\0\upgrade\Version-300, current: D:\dodds-exp\apache-iotdb-0.13.3-all-bin\data\system\storage_groups\root.wanhua\0\upgrade\Version-400 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-6] INFO  o.a.i.d.e.v.SimpleFileVersionController:113 - Version file updated, previous: D:\dodds-exp\apache-iotdb-0.13.3-all-bin\data\system\storage_groups\root.PAMAP2\0\upgrade\Version-300, current: D:\dodds-exp\apache-iotdb-0.13.3-all-bin\data\system\storage_groups\root.PAMAP2\0\upgrade\Version-400 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-3] INFO  o.a.i.d.e.v.SimpleFileVersionController:113 - Version file updated, previous: D:\dodds-exp\apache-iotdb-0.13.3-all-bin\data\system\storage_groups\root.jinfeng\0\upgrade\Version-300, current: D:\dodds-exp\apache-iotdb-0.13.3-all-bin\data\system\storage_groups\root.jinfeng\0\upgrade\Version-400 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-1] INFO  o.a.i.d.e.v.SimpleFileVersionController:113 - Version file updated, previous: D:\dodds-exp\apache-iotdb-0.13.3-all-bin\data\system\storage_groups\root.tao\0\upgrade\Version-300, current: D:\dodds-exp\apache-iotdb-0.13.3-all-bin\data\system\storage_groups\root.tao\0\upgrade\Version-400 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-4] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:174 - new single scheduled thread pool: Compaction_Schedule-root.tianyuan-0 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-5] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:174 - new single scheduled thread pool: Compaction_Schedule-root.wanhua-0 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-2] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:174 - new single scheduled thread pool: Compaction_Schedule-root.gas-0 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-6] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:174 - new single scheduled thread pool: Compaction_Schedule-root.PAMAP2-0 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-3] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:174 - new single scheduled thread pool: Compaction_Schedule-root.jinfeng-0 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-1] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:174 - new single scheduled thread pool: Compaction_Schedule-root.tao-0 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-4] INFO  o.a.i.d.e.s.VirtualStorageGroupProcessor:548 - The virtual storage group root.tianyuan[0] is recovered successfully 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-5] INFO  o.a.i.d.e.s.VirtualStorageGroupProcessor:548 - The virtual storage group root.wanhua[0] is recovered successfully 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-2] INFO  o.a.i.d.e.s.VirtualStorageGroupProcessor:548 - The virtual storage group root.gas[0] is recovered successfully 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-6] INFO  o.a.i.d.e.s.VirtualStorageGroupProcessor:548 - The virtual storage group root.PAMAP2[0] is recovered successfully 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-3] INFO  o.a.i.d.e.s.VirtualStorageGroupProcessor:548 - The virtual storage group root.jinfeng[0] is recovered successfully 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-4] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:174 - new single scheduled thread pool: WAL-Trim-root.tianyuan-0 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-1] INFO  o.a.i.d.e.s.VirtualStorageGroupProcessor:548 - The virtual storage group root.tao[0] is recovered successfully 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-5] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:174 - new single scheduled thread pool: WAL-Trim-root.wanhua-0 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-2] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:174 - new single scheduled thread pool: WAL-Trim-root.gas-0 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-6] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:174 - new single scheduled thread pool: WAL-Trim-root.PAMAP2-0 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-3] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:174 - new single scheduled thread pool: WAL-Trim-root.jinfeng-0 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-1] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:174 - new single scheduled thread pool: WAL-Trim-root.tao-0 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-4] INFO  o.a.i.d.e.s.v.StorageGroupManager:281 - Storage Group root.tianyuan has been recovered 1/1 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-5] INFO  o.a.i.d.e.s.v.StorageGroupManager:281 - Storage Group root.wanhua has been recovered 1/1 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-2] INFO  o.a.i.d.e.s.v.StorageGroupManager:281 - Storage Group root.gas has been recovered 1/1 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-6] INFO  o.a.i.d.e.s.v.StorageGroupManager:281 - Storage Group root.PAMAP2 has been recovered 1/1 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-3] INFO  o.a.i.d.e.s.v.StorageGroupManager:281 - Storage Group root.jinfeng has been recovered 1/1 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-1] INFO  o.a.i.d.e.s.v.StorageGroupManager:281 - Storage Group root.tao has been recovered 1/1 
+2023-07-25 09:32:03,698 [main] INFO  o.a.i.d.s.t.ThriftService:111 - IoTDB: start RPC ServerService... 
+2023-07-25 09:32:03,725 [main] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:232 - new SynchronousQueue thread pool: RPC-Client 
+2023-07-25 09:32:03,726 [RPC] INFO  o.a.i.d.s.t.ThriftServiceThread:241 - The RPC ServerService service thread begin to run... 
+2023-07-25 09:32:03,828 [main] INFO  o.a.i.d.s.t.ThriftService:135 - IoTDB: start RPC ServerService successfully, listening on ip 0.0.0.0 port 6667 
+2023-07-25 09:32:03,828 [main] INFO  o.a.i.db.service.IoTDB:168 - IoTDB is set up, now may some sgs are not ready, please wait several seconds... 
+2023-07-25 09:32:03,837 [main] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:68 - new fixed thread pool: UpgradeThread, thread number: 1 
+2023-07-25 09:32:03,838 [main] INFO  o.a.i.d.s.UpgradeSevice:97 - finish counting upgrading files, total num:0 
+2023-07-25 09:32:03,839 [main] INFO  o.a.i.d.s.UpgradeSevice:76 - Waiting for upgrade task pool to shut down 
+2023-07-25 09:32:03,839 [main] INFO  o.a.i.d.s.UpgradeSevice:78 - Upgrade service stopped 
+2023-07-25 09:32:03,840 [main] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:68 - new fixed thread pool: Settle, thread number: 1 
+2023-07-25 09:32:03,842 [main] INFO  o.a.i.d.s.SettleService:150 - Waiting for settle task pool to shut down 
+2023-07-25 09:32:03,842 [main] INFO  o.a.i.d.s.SettleService:152 - Settle service stopped 
+2023-07-25 09:32:03,844 [main] INFO  o.a.i.d.w.i.SingleFileLogReader:144 - open WAL file: tlog.bin size is 0 
+2023-07-25 09:32:03,846 [main] INFO  o.a.i.d.e.c.ContinuousQueryTaskPoolManager:44 - ContinuousQueryTaskPoolManager is initializing, thread number: 4 
+2023-07-25 09:32:03,847 [main] INFO  o.a.i.d.w.i.SingleFileLogReader:144 - open WAL file: cqlog.bin size is 0 
+2023-07-25 09:32:03,848 [main] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:174 - new single scheduled thread pool: CQ-Task-Submit-Thread 
+2023-07-25 09:32:03,849 [main] INFO  o.a.i.d.e.c.ContinuousQueryService:136 - Continuous query service started. 
+2023-07-25 09:32:03,849 [main] INFO  o.a.i.db.service.IoTDB:187 - Congratulation, IoTDB is set up successfully. Now, enjoy yourself! 
+2023-07-25 09:32:03,849 [main] INFO  o.a.i.db.service.IoTDB:133 - IoTDB has started. 
+2023-07-25 09:32:05,228 [pool-28-IoTDB-RPC-Client-1] INFO  o.a.i.d.s.b.ServiceProvider:206 - IoTDB: Login status: Login successfully. User : root, opens Session-1 
+2023-07-25 09:32:05,281 [pool-28-IoTDB-RPC-Client-1] INFO  o.a.i.d.s.t.i.TSServiceImpl:1181 - IoTDB server version: 0.13.3 
+2023-07-25 09:32:20,893 [pool-28-IoTDB-RPC-Client-1] ERROR o.a.i.d.u.ErrorHandlingUtils:83 - Status code: 401, Query Statement: "load '../". executeStatement failed 
+org.antlr.v4.runtime.misc.ParseCancellationException: line 1:5 token recognition error at: ''../'
+	at org.apache.iotdb.db.qp.strategy.SQLParseError.syntaxError(SQLParseError.java:38)
+	at org.antlr.v4.runtime.ProxyErrorListener.syntaxError(ProxyErrorListener.java:41)
+	at org.antlr.v4.runtime.Lexer.notifyListeners(Lexer.java:364)
+	at org.antlr.v4.runtime.Lexer.nextToken(Lexer.java:144)
+	at org.antlr.v4.runtime.BufferedTokenStream.fetch(BufferedTokenStream.java:169)
+	at org.antlr.v4.runtime.BufferedTokenStream.sync(BufferedTokenStream.java:152)
+	at org.antlr.v4.runtime.BufferedTokenStream.nextTokenOnChannel(BufferedTokenStream.java:325)
+	at org.antlr.v4.runtime.CommonTokenStream.adjustSeekIndex(CommonTokenStream.java:70)
+	at org.antlr.v4.runtime.BufferedTokenStream.consume(BufferedTokenStream.java:137)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.execATN(ParserATNSimulator.java:537)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.adaptivePredict(ParserATNSimulator.java:393)
+	at org.apache.iotdb.db.qp.sql.IoTDBSqlParser.utilityStatement(IoTDBSqlParser.java:1280)
+	at org.apache.iotdb.db.qp.sql.IoTDBSqlParser.statement(IoTDBSqlParser.java:400)
+	at org.apache.iotdb.db.qp.sql.IoTDBSqlParser.singleStatement(IoTDBSqlParser.java:318)
+	at org.apache.iotdb.db.qp.strategy.LogicalGenerator.generate(LogicalGenerator.java:99)
+	at org.apache.iotdb.db.qp.Planner.parseSQLToPhysicalPlan(Planner.java:62)
+	at org.apache.iotdb.db.service.thrift.impl.TSServiceImpl.executeStatement(TSServiceImpl.java:625)
+	at org.apache.iotdb.service.rpc.thrift.TSIService$Processor$executeStatement.getResult(TSIService.java:3101)
+	at org.apache.iotdb.service.rpc.thrift.TSIService$Processor$executeStatement.getResult(TSIService.java:3081)
+	at org.apache.thrift.ProcessFunction.process(ProcessFunction.java:38)
+	at org.apache.thrift.TBaseProcessor.process(TBaseProcessor.java:38)
+	at org.apache.thrift.server.TThreadPoolServer$WorkerProcess.run(TThreadPoolServer.java:248)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-07-25 09:32:51,402 [pool-28-IoTDB-RPC-Client-1] INFO  o.a.i.d.e.StorageEngine:768 - construct a processor instance, the storage group is root.test1, Thread is 51 
+2023-07-25 09:32:51,403 [pool-28-IoTDB-RPC-Client-1] INFO  o.a.i.d.e.s.VirtualStorageGroupProcessor:383 - Storage Group system Directory D:\dodds-exp\apache-iotdb-0.13.3-all-bin\data\system\storage_groups\root.test1\0 doesn't exist, create it 
+2023-07-25 09:32:51,404 [pool-28-IoTDB-RPC-Client-1] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:57 - recovering inner compaction 
+2023-07-25 09:32:51,405 [pool-28-IoTDB-RPC-Client-1] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:57 - recovering inner compaction 
+2023-07-25 09:32:51,405 [pool-28-IoTDB-RPC-Client-1] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:63 - recovering cross compaction 
+2023-07-25 09:32:51,406 [pool-28-IoTDB-RPC-Client-1] INFO  o.a.i.d.e.v.SimpleFileVersionController:113 - Version file updated, previous: D:\dodds-exp\apache-iotdb-0.13.3-all-bin\data\system\storage_groups\root.test1\0\upgrade\Version-0, current: D:\dodds-exp\apache-iotdb-0.13.3-all-bin\data\system\storage_groups\root.test1\0\upgrade\Version-100 
+2023-07-25 09:32:51,406 [pool-28-IoTDB-RPC-Client-1] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:174 - new single scheduled thread pool: Compaction_Schedule-root.test1-0 
+2023-07-25 09:32:51,407 [pool-28-IoTDB-RPC-Client-1] INFO  o.a.i.d.e.s.VirtualStorageGroupProcessor:548 - The virtual storage group root.test1[0] is recovered successfully 
+2023-07-25 09:32:51,407 [pool-28-IoTDB-RPC-Client-1] INFO  o.a.i.d.c.IoTDBThreadPoolFactory:174 - new single scheduled thread pool: WAL-Trim-root.test1-0 
+2023-07-25 09:32:51,410 [pool-28-IoTDB-RPC-Client-1] INFO  o.a.i.d.e.s.VirtualStorageGroupProcessor:2451 - TsFile 1673515782711-0-0-0.tsfile must be renamed to 1690248771409-0-0-0.tsfile for loading into the sequence list. 
+2023-07-25 09:32:51,411 [pool-28-IoTDB-RPC-Client-1] INFO  o.a.i.d.e.s.VirtualStorageGroupProcessor:2799 - Load tsfile in sequence list, move file from D:\dodds-exp\apache-iotdb-0.13.3-all-bin\sbin\..\1\0\1673515782711-0-0-0.tsfile to D:\dodds-exp\apache-iotdb-0.13.3-all-bin\data\data\sequence\root.test1\0\0\1690248771409-0-0-0.tsfile 
+2023-07-25 09:32:51,417 [pool-28-IoTDB-RPC-Client-1] INFO  o.a.i.d.e.s.VirtualStorageGroupProcessor:2466 - TsFile 1690248771409-0-0-0.tsfile is successfully loaded in sequence list. 

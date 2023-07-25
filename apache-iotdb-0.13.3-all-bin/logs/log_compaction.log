@@ -1,0 +1,22 @@
+2023-07-25 09:32:03,638 [main] INFO  o.a.i.d.e.c.CompactionTaskManager:131 - Compaction task manager started. 
+2023-07-25 09:32:03,673 [pool-12-IoTDB-Recovery-Thread-Pool-3] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:57 - recovering inner compaction 
+2023-07-25 09:32:03,673 [pool-12-IoTDB-Recovery-Thread-Pool-5] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:57 - recovering inner compaction 
+2023-07-25 09:32:03,673 [pool-12-IoTDB-Recovery-Thread-Pool-4] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:57 - recovering inner compaction 
+2023-07-25 09:32:03,673 [pool-12-IoTDB-Recovery-Thread-Pool-2] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:57 - recovering inner compaction 
+2023-07-25 09:32:03,673 [pool-12-IoTDB-Recovery-Thread-Pool-1] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:57 - recovering inner compaction 
+2023-07-25 09:32:03,673 [pool-12-IoTDB-Recovery-Thread-Pool-6] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:57 - recovering inner compaction 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-4] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:57 - recovering inner compaction 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-2] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:57 - recovering inner compaction 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-3] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:57 - recovering inner compaction 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-1] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:57 - recovering inner compaction 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-5] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:57 - recovering inner compaction 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-6] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:57 - recovering inner compaction 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-4] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:63 - recovering cross compaction 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-2] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:63 - recovering cross compaction 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-3] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:63 - recovering cross compaction 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-1] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:63 - recovering cross compaction 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-5] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:63 - recovering cross compaction 
+2023-07-25 09:32:03,681 [pool-12-IoTDB-Recovery-Thread-Pool-6] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:63 - recovering cross compaction 
+2023-07-25 09:32:51,404 [pool-28-IoTDB-RPC-Client-1] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:57 - recovering inner compaction 
+2023-07-25 09:32:51,405 [pool-28-IoTDB-RPC-Client-1] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:57 - recovering inner compaction 
+2023-07-25 09:32:51,405 [pool-28-IoTDB-RPC-Client-1] INFO  o.a.i.d.e.c.t.CompactionRecoverManager:63 - recovering cross compaction 
