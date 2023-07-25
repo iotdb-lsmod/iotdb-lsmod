@@ -9,7 +9,7 @@
 
 ## How to execute
 
-1. Compile the time series database [IoTDB](https://github.com/apache/iotdb/tree/research/outlier) by the following command. There is also a well compiled database in the folder ***opensource-data***.
+1. Compile the time series database [IoTDB](https://github.com/apache/iotdb/tree/research/outlier) by the following command. There is also a well compiled database in the folder ***apache-iotdb-0.13.3-all-bin***.
 
 ```
 mvn clean package -DskipTests -Dcheckstyle.skip=True
